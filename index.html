@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sass/main.css">
+    <title>Draw App</title>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div class="color-box">
+        <div class="colors" data-color="black"></div>
+        <div class="colors" data-color="red"></div>
+        <div class="colors" data-color="orange"></div>
+        <div class="colors" data-color="blue"></div>
+        <div class="colors" data-color="purple"></div>
+        <div class="colors" data-color="yellowgreen"></div>
+        <div class="colors" data-color="yellow"></div>
+        <div class="colors" data-color="white"></div>
+        <div class="colors" data-color="tomato"></div>
+        <div class="colors" data-color="skyblue"></div>
+        <div class="colors" data-color="cyan"></div>
+        <input type="color" id="getBg" value="#796be0">
+        <input type="range" name="brush" id="brushSize" value="5" min="1" max="10">
+        <p class="rangenum">5</p>
+        <button class="erase">Erase</button>
+        <button class="save">Save</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

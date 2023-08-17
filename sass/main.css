@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.color-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(90deg, #b92b27, #1565C0);
+  width: 64%;
+  position: absolute;
+  top: 10px;
+  left: 15%;
+  margin-top: 0 auto;
+  padding: 1.5%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px black;
+  z-index: 6;
+  max-width: 1000px;
+}
+.color-box .colors {
+  width: 30px;
+  height: 30px;
+  border: 4px solid white;
+  border-radius: 15px;
+  margin: auto 2px;
+}
+.color-box #getBg {
+  margin: 0 10px;
+}
+.color-box #brushSize {
+  height: 7px;
+  outline: none;
+  cursor: ew-resize;
+  border-radius: 5px;
+  border: 3px solid white;
+  accent-color: rgb(246, 236, 120);
+}
+.color-box .rangenum {
+  color: #fff;
+  font-weight: 600;
+  margin: 0 5px;
+}
+
+.colors:nth-child(1) {
+  background-color: #000;
+}
+
+.colors:nth-child(2) {
+  background-color: red;
+}
+
+.colors:nth-child(3) {
+  background-color: orange;
+}
+
+.colors:nth-child(4) {
+  background-color: blue;
+}
+
+.colors:nth-child(5) {
+  background-color: purple;
+}
+
+.colors:nth-child(6) {
+  background-color: yellowgreen;
+}
+
+.colors:nth-child(7) {
+  background-color: yellow;
+}
+
+.colors:nth-child(8) {
+  background-color: #fff;
+}
+
+.colors:nth-child(9) {
+  background-color: tomato;
+}
+
+.colors:nth-child(10) {
+  background-color: skyblue;
+}
+
+.colors:nth-child(11) {
+  background-color: cyan;
+}
+
+.erase, .save {
+  font-size: 1.3em;
+  margin: 2px;
+  border-radius: 4px;
+  border: 2px solid #fff;
+  padding: 0.2em 0.5em;
+  color: #fff;
+  font-weight: 600;
+}
+
+.save {
+  background-color: #63ce35;
+}
+
+.erase {
+  background-color: #ff0000;
+}
+
+@media (max-width: 1368px) and (min-width: 768px) {
+  .color-box {
+    width: 80%;
+    left: 10%;
+  }
+}
+@media (max-width: 768px) {
+  .color-box {
+    width: 96%;
+    left: 2%;
+  }
+}/*# sourceMappingURL=main.css.map */
